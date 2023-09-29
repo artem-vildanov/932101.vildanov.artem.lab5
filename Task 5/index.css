@@ -63,6 +63,7 @@
 }
 
 .modal {
+    display: none;
     position: fixed;
     width: 500px;
     top: 50%;
@@ -73,7 +74,6 @@
     z-index: 4;
     padding: 20px;
 
-    transition: background-color 0.3s ease-out;
 }
 
 .modal-content-container {
@@ -90,6 +90,7 @@
 }
 
 .overlay {
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;

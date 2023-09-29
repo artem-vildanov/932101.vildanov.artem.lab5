@@ -14,7 +14,7 @@ function openModal (targetModelId) {
 function closeModal (targetModelId) {
     // const modal = document.getElementById(targetModelId);
     // const overlay = document.querySelector(".overlay");
-
+    
     $("#" + targetModelId).fadeOut(400);
     $(".overlay").fadeOut(400);
 
